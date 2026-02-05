@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    max-width: 1280px;
+    margin: 0;
+    padding: .25rem;
+}
+
+main {
+    padding: .5rem;
+    padding-right: .5rem;
+}
+
+
+.material-symbol-sharp {
+    font-variation-settings: "fill" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+body {
+    background-color: rgb(241, 239, 239);
+    max-height: 100vh;
+}
+
+.visually_hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.body {
+    display: flex;
+}
